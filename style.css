@@ -1,0 +1,76 @@
+/* Reset de estilos para garantir consistência entre navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilizando o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+/* Estilizando o contêiner */
+.container {
+    background-color: #444;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Estilizando o título */
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #ff8c00; /* Laranja */
+}
+
+/* Estilizando os campos de entrada */
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #666;
+    border-radius: 5px;
+    background-color: #555;
+    color: #fff;
+}
+
+/* Estilizando o botão de calcular */
+button {
+    background-color: #ff5733; /* Vermelho alaranjado */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #ff4500; /* Vermelho alaranjado mais escuro no hover */
+}
+
+/* Estilizando as mensagens de alerta */
+.alert {
+    font-size: 16px;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.alert.success {
+    background-color: #00b300; /* Verde escuro */
+    color: #fff;
+}
+
+.alert.error {
+    background-color: #cc0000; /* Vermelho escuro */
+    color: #fff;
+}
